@@ -1,0 +1,4 @@
+CREATE USER admin WITH PASSWORD 'devpass';
+
+CREATE DATABASE ddng_db;
+GRANT ALL PRIVILEGES ON DATABASE ddng_db TO admin;
